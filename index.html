@@ -10,7 +10,8 @@
 	<meta property="og:image" content="URL_image">
 	<meta property="og:url" content="https://votre-site.com">
 	<!-- Chargement de la version minifiée pour réduire le temps de chargement -->
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/bootstrap/bootstrap.min.css" media="print" onload="this.media='all';">
+
 	<link rel="stylesheet" href="./assets/style.css">
 	<!-- Préconnexion pour améliorer la vitesse de chargement des polices -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,15 +64,15 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img src="./assets/images/slider/ryoji-iwata.webp" class="d-block w-100" alt="homme-malette"
-						width="1920" height="888" sizes="100vw" loading="lazy">
+						width="1920" height="888" sizes="100vw">
 				</div>
 				<div class="carousel-item">
 					<img src="./assets/images/slider/nicholas-green.webp" class="d-block w-100" alt="homme-concert"
-						width="1920" height="888" sizes="100vw" loading="lazy">
+						width="1920" height="888" sizes="100vw">
 				</div>
 				<div class="carousel-item">
 					<img src="./assets/images/slider/edward-cisneros.webp" class="d-block w-100" alt="mariage"
-						width="1920" height="888" sizes="100vw" loading="lazy">
+						width="1920" height="888" sizes="100vw">
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
