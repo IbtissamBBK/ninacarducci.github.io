@@ -22,14 +22,14 @@
 	<script src="./assets/maugallery.min.js" defer></script> <!-- Version minifié -->
     <script src="./assets/scripts.min.js" defer></script> <!-- Version minifié -->
 	
-	<!-- Précharger une image critique pour accélérer le rendu initial -->
+	<!-- Précharger une image pour accélérer le rendu -->
     <link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata.webp">
 
 </head>
 <body>
 <header class="top-header"> <!-- Ajout balise header -->
 	<h1 class="name">Nina Carducci</h1>
-	<nav class="nav">  <!-- Ajout balise nav -->
+	<div class="nav">  <!-- Ajout balise nav -->
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -40,7 +40,7 @@
 				<img src="assets/images/instagram.webp" alt="instagram" loading="lazy" width="20" height="20">
             </a></li>
 		</ul>
-	</nav>
+	</div>
 </header>
 <div id="header">
 
@@ -51,7 +51,7 @@
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 		</div>
 		<div class="carousel-inner">
-            <div class="carousel-item active"> <!-- Ajout des dimensions pour éviter les décalages de mise en page  -->
+            <div class="carousel-item active">
                 <img src="./assets/images/slider/ryoji-iwata.webp" class="d-block w-100" alt="homme-malette" loading="lazy">
             </div>
             <div class="carousel-item">
